@@ -28,6 +28,7 @@ const Layout = ({ children }) => {
           height: '100vh',
           pointerEvents: 'none',
         }}
+        gl={{ preserveDrawingBuffer: true }}
         eventSource={ref}
         eventPrefix='client'
       />
